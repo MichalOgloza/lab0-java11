@@ -6,11 +6,11 @@ import java.util.List;
 public class TailsGenerator {
 
     public List<String> tails(String value) {
-        List<String> lst = new ArrayList<>();
+        List<String> tailList = new ArrayList<>();
 
         for(int i = 0; i <= value.length(); i++)
-            lst.add(value.substring(i));
-        return lst;
+            tailList.add(value.substring(i));
+        return tailList;
     }
 
 }
